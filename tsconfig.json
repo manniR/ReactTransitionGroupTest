@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "/src",
+    "paths": {
+      "@config/*": ["app/_config/*"],
+      "@components/*": ["/components"]
+    }
+  }
+}

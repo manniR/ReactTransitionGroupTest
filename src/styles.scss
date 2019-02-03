@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.list-item {
+  background-color: rgb(240, 219, 193);
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+/* Transition */
+.slide-up-enter {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+
+  &.slide-up-appear-active {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.example-appear {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.25s ease;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transform: translateY(0px);
+}

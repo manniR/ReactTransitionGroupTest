@@ -1,2 +1,0 @@
-# ReactTransitionGroupTest
-Created with CodeSandbox
